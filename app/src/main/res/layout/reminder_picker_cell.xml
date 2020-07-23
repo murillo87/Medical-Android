@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/reminder_picker_content"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:cardCornerRadius="0dp"
+    android:layout_margin="0dp"
+    app:cardBackgroundColor="@color/darkMain">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:gravity="center_horizontal">
+
+        <NumberPicker
+            android:id="@+id/number_picker_hour"
+            android:layout_width="@dimen/defaultNumberPickerWidth"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/defaultMarginTop"
+            android:layout_marginBottom="@dimen/defaultMarginBottom"
+            android:layout_marginEnd="@dimen/defaultMarginRight"
+            android:theme="@style/AppTheme.Picker"/>
+
+        <NumberPicker
+            android:id="@+id/number_picker_minute"
+            android:layout_width="@dimen/defaultMinutePickerWidth"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/defaultMarginTop"
+            android:layout_marginBottom="@dimen/defaultMarginBottom"
+            android:layout_marginStart="@dimen/defaultMarginLeft"
+            android:theme="@style/AppTheme.Picker"/>
+
+    </LinearLayout>
+
+</android.support.v7.widget.CardView>

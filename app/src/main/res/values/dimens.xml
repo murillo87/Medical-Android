@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- The default margin for cell views -->
+    <dimen name="defaultMarginLeft">22dp</dimen>
+    <dimen name="defaultMarginTop">12dp</dimen>
+    <dimen name="defaultMarginRight">22dp</dimen>
+    <dimen name="defaultMarginBottom">18dp</dimen>
+
+    <!-- The default space between two view elements -->
+    <dimen name="defaultGap">6dp</dimen>
+
+    <!-- The default space between two text horizontally and vertically -->
+    <dimen name="defaultTextGap">16dp</dimen>
+
+    <!-- The default height of separator for cell views -->
+    <dimen name="defaultSeparatorHeight">2.5dp</dimen>
+
+    <!-- The width of swipe menu for the cell -->
+    <dimen name="swipeMenuWidth">120dp</dimen>
+
+    <!-- The default size for the drag button in a cell -->
+    <dimen name="defaultDragWidth">22dp</dimen>
+    <dimen name="defaultDragHeight">36dp</dimen>
+
+    <!-- The default size for the arrow image icon -->
+    <dimen name="defaultArrowWidth">25dp</dimen>
+    <dimen name="defaultArrowHeight">25dp</dimen>
+
+    <!-- The default size for the image buttons -->
+    <dimen name="defaultImageButtonWidth">44dp</dimen>
+    <dimen name="defaultImageButtonHeight">44dp</dimen>
+
+    <!-- The default size for the button tap area -->
+    <dimen name="defaultTapAreaWidth">150dp</dimen>
+    <dimen name="defaultTapAreaHeight">64dp</dimen>
+
+    <!-- The default width of number picker -->
+    <dimen name="defaultNumberPickerWidth">80dp</dimen>
+
+    <!-- The default width of number picker as minutes -->
+    <dimen name="defaultMinutePickerWidth">120dp</dimen>
+
+</resources>

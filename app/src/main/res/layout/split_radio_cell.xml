@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<android.support.v7.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/split_radio_cell_content"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:cardCornerRadius="0dp"
+    android:layout_margin="0dp"
+    app:cardBackgroundColor="@color/darkMain">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical">
+
+            <ImageButton
+                android:id="@+id/split_radio_left_button"
+                android:contentDescription="@string/split_radio_left"
+                android:layout_width="@dimen/defaultTapAreaWidth"
+                android:layout_height="@dimen/defaultTapAreaHeight"
+                android:layout_centerVertical="true"
+                android:layout_alignParentStart="true"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                android:paddingStart="@dimen/defaultMarginLeft"
+                android:paddingEnd="@dimen/defaultGap"
+                android:background="@null"
+                android:clickable="true"
+                android:focusable="true"
+                android:tint="@color/magenta"
+                android:src="@drawable/radio_toggle_button"
+                android:scaleType="fitStart" />
+
+            <TextView
+                android:id="@+id/split_radio_title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/defaultMarginBottom"
+                android:layout_marginEnd="70dp"
+                android:layout_marginStart="70dp"
+                android:layout_marginTop="@dimen/defaultMarginTop"
+                android:layout_centerVertical="true"
+                android:textAlignment="center"
+                android:maxLines="3"
+                android:textColor="@color/lightMain"
+                android:theme="@style/fontHeadLineDefault"
+                tools:textAppearance="@style/fontHeadLineDefault"
+                tools:text="Split Radio" />
+
+            <ImageButton
+                android:id="@+id/split_radio_right_button"
+                android:contentDescription="@string/split_radio_right"
+                android:layout_width="@dimen/defaultTapAreaWidth"
+                android:layout_height="@dimen/defaultTapAreaHeight"
+                android:layout_alignParentEnd="true"
+                android:layout_centerVertical="true"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                android:paddingEnd="@dimen/defaultMarginRight"
+                android:paddingStart="@dimen/defaultGap"
+                android:background="@null"
+                android:clickable="true"
+                android:focusable="true"
+                android:tint="@color/lightMain"
+                android:src="@drawable/radio_toggle_button"
+                tools:scaleType="fitEnd" />
+
+        </RelativeLayout>
+
+        <View
+            android:id="@+id/split_radio_cell_separator"
+            android:background="@color/lightMain"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/defaultSeparatorHeight"
+            android:layout_marginStart="@dimen/defaultMarginLeft"
+            android:layout_marginEnd="@dimen/defaultMarginRight" />
+
+    </LinearLayout>
+
+</android.support.v7.widget.CardView>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- The scene's title in the header view -->
+    <string name="graphSceneTitle">NH-Dicke/Visus</string>
+    
+    <!-- The first cell showing the static text to hint which eye's data is shown -->
+    <string name="graphHeaderCellLeftEye">links</string>
+    <string name="graphHeaderCellRightEye">rechts</string>
+    
+    <!-- The second cell showing the selected date -->
+    <string name="graphIvomDateCellTitle">IVOM</string>
+
+    <!-- Graph vertical axis titles -->
+    <string name="graphTitleLeft">NH-Dicke (µm)</string>
+    <string name="graphTitleRight">Visus (dcml)</string>
+
+    <!-- Graph horizontal axis values -->
+    <!-- The format of the day numbers -->
+    <string name="graphMonthNumberFormat">%02d</string>
+    <string name="graphXAxisLabelFormat">%s.%s</string>
+</resources>

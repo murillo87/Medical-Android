@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.daimajia.swipe.SwipeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/swipe_contact_detail"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:leftEdgeSwipeOffset="0dp"
+    app:rightEdgeSwipeOffset="0dp"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/right_menu"
+        android:layout_width="@dimen/swipeMenuWidth"
+        android:layout_height="match_parent"
+        android:weightSum="1">
+
+        <TextView
+            android:id="@+id/right_delete"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@color/magenta"
+            android:gravity="center"
+            android:text="@string/contactDetailDeleteButton"
+            android:textColor="@color/white"
+            android:theme="@style/fontContent1Default"
+            tools:textAppearance="@style/fontContent1Default"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/left_menu"
+        android:layout_width="@dimen/swipeMenuWidth"
+        android:layout_height="match_parent"
+        android:weightSum="1">
+
+        <TextView
+            android:id="@+id/left_delete"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@color/magenta"
+            android:gravity="center"
+            android:text="@string/contactDetailDeleteButton"
+            android:textColor="@color/white"
+            android:theme="@style/fontContent1Default"
+            tools:textAppearance="@style/fontContent1Default"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center_vertical"
+        android:background="@color/darkMain">
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <ImageButton
+                android:id="@+id/contact_detail_drag"
+                android:contentDescription="@string/drag_cell_button"
+                android:layout_width="@dimen/defaultDragWidth"
+                android:layout_height="@dimen/defaultDragHeight"
+                android:layout_centerVertical="true"
+                android:background="@null"
+                android:clickable="true"
+                android:focusable="true"
+                android:src="@drawable/threedots"
+                android:scaleType="fitCenter"/>
+
+            <TextView
+                android:id="@+id/contact_detail_cell_title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/defaultMarginLeft"
+                android:layout_marginTop="@dimen/defaultMarginTop"
+                android:layout_marginEnd="@dimen/defaultGap"
+                android:layout_marginBottom="@dimen/defaultMarginBottom"
+                android:layout_centerVertical="true"
+                android:layout_toStartOf="@+id/arrow_icon"
+                android:singleLine="false"
+                android:maxLines="3"
+                android:textColor="@color/lightMain"
+                android:theme="@style/fontHeadLineDefault"
+                tools:textAppearance="@style/fontHeadLineDefault"
+                tools:text="Contact Cell" />
+
+            <EditText
+                android:id="@+id/contact_detail_cell_entry"
+                android:background="@color/transparent"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/defaultMarginLeft"
+                android:layout_marginTop="@dimen/defaultMarginTop"
+                android:layout_marginEnd="@dimen/defaultGap"
+                android:layout_marginBottom="@dimen/defaultMarginBottom"
+                android:layout_centerVertical="true"
+                android:layout_toStartOf="@+id/arrow_icon"
+                android:padding="0dp"
+                android:textColor="@color/lightMain"
+                android:textColorHint="@color/lightMain"
+                android:theme="@style/fontHeadLineDefault"
+                android:imeOptions="actionDone|flagNoExtractUi"
+                tools:textAppearance="@style/fontHeadLineDefault"
+                tools:hint="Place holder" />
+
+            <ImageView
+                android:id="@+id/arrow_icon"
+                android:contentDescription="@string/arrow_icon_description"
+                android:layout_width="@dimen/defaultArrowWidth"
+                android:layout_height="@dimen/defaultArrowHeight"
+                android:layout_centerVertical="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginEnd="@dimen/defaultMarginRight"
+                android:scaleType="fitCenter"
+                android:scaleX="-1"
+                android:src="@drawable/back_arrow" />
+
+        </RelativeLayout>
+
+        <View
+            android:id="@+id/contact_detail_cell_separator"
+            android:background="@color/lightMain"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/defaultSeparatorHeight"
+            android:layout_marginStart="@dimen/defaultMarginLeft"
+            android:layout_marginEnd="@dimen/defaultMarginRight" />
+
+    </LinearLayout>
+
+</com.daimajia.swipe.SwipeLayout>

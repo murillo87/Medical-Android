@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    tools:context=".scenes.note.NoteSceneActivity">
+
+    <com.appamedix.makula.views.navigation.NavigationView
+        android:id="@+id/navigation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:id="@+id/note_entry"
+        android:background="@color/transparent"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="@dimen/defaultMarginBottom"
+        android:layout_marginEnd="@dimen/defaultMarginLeft"
+        android:layout_marginStart="@dimen/defaultMarginRight"
+        android:gravity="top|start"
+        android:scrollbars="none"
+        android:scrollHorizontally="false"
+        android:paddingTop="@dimen/defaultGap"
+        android:inputType="text|textMultiLine"
+        android:lines="@null"
+        android:textColor="@color/darkMain"
+        android:textColorHint="@color/gray"
+        android:theme="@style/fontContent2Default"
+        android:imeOptions="actionDone|flagNoExtractUi"
+        android:hint="@string/notePlaceholder"
+        tools:textAppearance="@style/fontContent2Default" />
+
+</LinearLayout>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- The scene's title -->
+    <string name="amslerTestTitle">Amslertest</string>
+
+    <!-- The cell titles -->
+    <string name="amslerTestTextCell">Verzerrungen</string>
+    <string name="amslerTestSplitCellLeft">links</string>
+    <string name="amslerTestSplitCellRight">rechts</string>
+</resources>

@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<android.support.v7.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/diagnosis_cell_content_view"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:cardCornerRadius="0dp"
+    android:layout_margin="0dp"
+    app:cardBackgroundColor="@color/darkMain">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/diagnosis_cell_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/defaultMarginLeft"
+            android:layout_marginEnd="@dimen/defaultMarginRight"
+            android:layout_marginTop="@dimen/defaultMarginTop"
+            android:textAlignment="textStart"
+            android:maxLines="3"
+            android:textColor="@color/lightMain"
+            android:theme="@style/fontHeadLineDefault"
+            tools:textAppearance="@style/fontHeadLineDefault"
+            tools:text="Title" />
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/diagnosis_cell_radio"
+                android:contentDescription="@string/diagnosis_radio"
+                android:layout_width="@dimen/defaultImageButtonWidth"
+                android:layout_height="@dimen/defaultImageButtonHeight"
+                android:layout_marginStart="@dimen/defaultMarginLeft"
+                android:layout_centerVertical="true"
+                android:layout_alignParentStart="true"
+                android:background="@null"
+                android:src="@drawable/radio_toggle_button"
+                android:scaleType="fitStart" />
+
+            <TextView
+                android:id="@+id/diagnosis_cell_subtitle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/defaultGap"
+                android:layout_marginEnd="@dimen/defaultGap"
+                android:layout_marginBottom="@dimen/defaultMarginBottom"
+                android:layout_centerVertical="true"
+                android:layout_toEndOf="@+id/diagnosis_cell_radio"
+                android:layout_toStartOf="@+id/diagnosis_cell_info"
+                android:textAlignment="textStart"
+                android:maxLines="1"
+                android:textColor="@color/lightMain"
+                android:theme="@style/fontHeadLineDefault"
+                tools:textAppearance="@style/fontHeadLineDefault"
+                tools:text="(Sub)" />
+
+            <ImageButton
+                android:id="@+id/diagnosis_cell_info"
+                android:contentDescription="@string/diagnosis_info"
+                android:layout_width="@dimen/defaultImageButtonWidth"
+                android:layout_height="@dimen/defaultImageButtonHeight"
+                android:layout_marginEnd="@dimen/defaultMarginRight"
+                android:layout_alignParentEnd="true"
+                android:layout_centerVertical="true"
+                android:background="@null"
+                android:clickable="true"
+                android:focusable="true"
+                android:src="@drawable/info_button"
+                tools:scaleType="fitEnd" />
+
+        </RelativeLayout>
+
+        <View
+            android:id="@+id/diagnosis_cell_separator"
+            android:background="@color/lightMain"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/defaultSeparatorHeight"
+            android:layout_marginStart="@dimen/defaultMarginLeft"
+            android:layout_marginEnd="@dimen/defaultMarginRight" />
+
+    </LinearLayout>
+
+</android.support.v7.widget.CardView>

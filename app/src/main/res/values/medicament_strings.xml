@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- The scene's title -->
+    <string name="medicamentTitle">Medikamente</string>
+
+    <!-- The more cell titles -->
+    <string name="medicamentCellMore">Weitere</string>
+
+    <!-- The cell title for the speech synthesizer -->
+    <string name="medicamentCellMoreSpeech">Weitere</string>
+
+    <!-- The swipe button's title in the cell -->
+    <string name="medicamentDeleteButton">Löschen</string>
+</resources>

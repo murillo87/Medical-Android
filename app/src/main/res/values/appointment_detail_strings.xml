@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- The date format for the title -->
+    <string name="appointmentDetailTitle">%s</string>
+    <string name="appointmentTimeFormat">HH:mm</string>
+    <string name="appointmentTime">%s Uhr</string>
+
+    <!-- Delete alert -->
+    <string name="detailDeleteAlertTitle">Eintrag löschen?</string>
+    <string name="detailDeleteAlertMessage">Wollen Sie wirklich alle Daten für diesen Tag löschen?</string>
+    <string name="detailDeleteAlertConfirm">Ja, löschen</string>
+    <string name="detailDeleteAlertCancel">Abbrechen</string>
+    
+    <!-- The cell titles -->
+    <string name="detailVisusModelCellTitle">Visus</string>
+    <string name="detailNhdModelCellTitle">OCT</string>
+    <string name="detailAmslertestModelCellTitle">Amslertest</string>
+    <string name="detailReadingTestModelCellTitle">Lesetest</string>
+    <string name="detailMedicalAppointmentCellTitle">Arzttermin</string>
+    <string name="detailNoteCellTitle">Notizen</string>
+    <string name="detailDeleteCellTitle">Löschen</string>
+    <string name="detailSplitCellTitleLeft">links</string>
+    <string name="detailSplitCellTitleRight">rechts</string>
+
+    <!-- The cell titles for the speech synthesizer -->
+    <string name="detailVisusModelCellTitleSpeech">Visus</string>
+    <string name="detailNhdModelCellTitleSpeech">O C T</string>
+    <string name="detailAmslertestModelCellTitleSpeech">Amslertest</string>
+    <string name="detailReadingTestModelCellTitleSpeech">Lesetest</string>
+    <string name="detailMedicalAppointmentCellTitleSpeech">Arzttermin</string>
+    <string name="detailNoteCellTitleSpeech">Notizen</string>
+    <string name="detailDeleteCellTitleSpeech">Löschen</string>
+    <string name="detailSplitCellTitleLeftSpeech">links</string>
+    <string name="detailSplitCellTitleRightSpeech">rechts</string>
+</resources>

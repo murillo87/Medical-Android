@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- The title for the contact scene -->
+    <string name="contactDetailTitle">Kontakte</string>
+
+    <!-- The default cell titles -->
+    <string name="contactDetailNameCell">Name</string>
+    <string name="contactDetailMobileCell">Mobil-Nr.</string>
+    <string name="contactDetailPhoneCell">Tel.-Nr.</string>
+    <string name="contactDetailEmailCell">E-Mail</string>
+    <string name="contactDetailWebCell">Webseite</string>
+    <string name="contactDetailStreetCell">Straße</string>
+    <string name="contactDetailCityCell">Stadt</string>
+
+    <!-- The cell titles as speech synthesizer text -->
+    <string name="contactDetailNameCellSpeech">Name</string>
+    <string name="contactDetailMobileCellSpeech">Mobil Nummer</string>
+    <string name="contactDetailPhoneCellSpeech">Telefon Nummer</string>
+    <string name="contactDetailEmailCellSpeech">EMail</string>
+    <string name="contactDetailWebCellSpeech">Webseite</string>
+    <string name="contactDetailStreetCellSpeech">Straße</string>
+    <string name="contactDetailCityCellSpeech">Stadt</string>
+
+    <!-- The alert for the phone call -->
+    <string name="phoneCallAlertTitle">Anrufen</string>
+    <string name="phoneCallAlertMessage">Wollen Sie wirklich anrufen?</string>
+    <string name="phoneCallConfirmButton">Ja, anrufen</string>
+    <string name="phoneCallCancelButton">Abbrechen</string>
+
+    <string name="phoneCallFailureTitle">Keine Telefonnummer</string>
+    <string name="phoneCallFailureMessage">Die Telefonnummer konnte nicht gewählt werden.</string>
+    <string name="phoneCallDeniedMessage">Permission call phone denied.</string>
+
+    <!-- The alert for the email send -->
+    <string name="emailFailureTitle">Kein Email-Konto</string>
+    <string name="emailFailureMessage">Mit diesem Gerät können derzeit leider keine Emails geschrieben werden. Stellen Sie bitte sicher, dass ein Email-Konto eingerichtet ist.</string>
+
+    <!-- The alert for the SMS send -->
+    <string name="smsFailureTitle">SMS nicht möglich</string>
+    <string name="smsFailureMessage">Die SMS Nummer konnte nicht an die SMS App übermittelt werden.</string>
+
+    <!-- The alert for the website connection -->
+    <string name="webFailureTitle">Web-Adresse fehlerhaft</string>
+    <string name="webFailureMessage">Die angegebene Web-Adresse lässt sich leider nicht in eine gültige URL umwandeln.</string>
+
+    <!-- The swipe button's title in the cell -->
+    <string name="contactDetailDeleteButton">Löschen</string>
+
+</resources>

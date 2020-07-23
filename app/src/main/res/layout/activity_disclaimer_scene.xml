@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/darkMain"
+    tools:context=".scenes.disclaimer.DisclaimerSceneActivity">
+
+    <ScrollView
+        android:id="@+id/scrollView"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/defaultMarginLeft"
+                android:layout_marginTop="@dimen/defaultMarginLeft"
+                android:text="@string/disclaimerTitle"
+                android:textColor="@color/white"
+                android:theme="@style/fontContent1Default"
+                tools:textAppearance="@style/fontContent1Default"/>
+
+            <TextView
+                android:id="@+id/content"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/defaultMarginLeft"
+                android:layout_marginEnd="@dimen/defaultMarginRight"
+                android:layout_marginTop="37dp"
+                android:lineSpacingExtra="8dp"
+                android:text="@string/disclaimerDescription"
+                android:textColor="@color/white"
+                android:theme="@style/fontContent1Default"
+                tools:textAppearance="@style/fontContent1Default"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="37dp"
+                android:layout_marginBottom="@dimen/defaultMarginRight"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/checkBox_title"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/defaultMarginLeft"
+                    android:text="@string/disclaimerCheckbox"
+                    android:textColor="@color/white"
+                    android:theme="@style/fontContent1Default"
+                    tools:textAppearance="@style/fontContent1Default"/>
+
+                <CheckBox
+                    android:id="@+id/checkBox"
+                    android:layout_width="52dp"
+                    android:layout_height="52dp"
+                    android:layout_marginStart="8dp"
+                    android:background="@drawable/checkmark_design"
+                    android:button="@color/transparent"
+                    android:checked="false" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+    <Button
+        android:id="@+id/confirm_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="0dp"
+        android:layout_marginBottom="0dp"
+        android:paddingTop="8dp"
+        android:paddingBottom="8dp"
+        android:background="@color/disabled"
+        android:enabled="false"
+        android:text="@string/disclaimerConfirm"
+        android:textColor="@color/action_done_button"
+        android:textAllCaps="false"
+        android:theme="@style/fontHeadLineDefault"
+        tools:textAppearance="@style/fontContent1Default" />
+
+</LinearLayout>

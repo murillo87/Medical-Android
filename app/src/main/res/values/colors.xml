@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <!-- Custom colors -->
+    <color name="pompadour">#610F4F</color>
+    <color name="gray">#A8A8A9</color>
+    <color name="disabled">#515151</color>
+    <color name="darkMain">#000029</color>
+    <color name="yellow">#FEBE09</color>
+    <color name="green">#19C104</color>
+    <color name="magenta">#FF00FF</color>
+    <color name="white">#FFFFFF</color>
+    <color name="lightMain">#2983FF</color>
+    <color name="transparent">#00000000</color>
+    <color name="colorNotification">#E8334A</color>
+</resources>

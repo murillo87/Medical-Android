@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- The scene's title -->
+    <string name="diagnosisTitle">Diagnose</string>
+
+    <!-- The cell titles -->
+    <string name="diagnosisCellTitleAmd">Altersabhängige Makuladegeneration</string>
+    <string name="diagnosisCellTitleDmo">Diabetisches Makulaödem</string>
+    <string name="diagnosisCellTitleRvv">Retinaler Venenverschluss</string>
+    <string name="diagnosisCellTitleMcnv">Myope choroidale Neovaskularisation</string>
+
+    <!-- The cell sub titles -->
+    <string name="diagnosisSubTitleAmd">(AMD)</string>
+    <string name="diagnosisSubTitleDmo">(DMÖ)</string>
+    <string name="diagnosisSubTitleRvv">(RVV)</string>
+    <string name="diagnosisSubTitleMcnv">(mCNV)</string>
+</resources>

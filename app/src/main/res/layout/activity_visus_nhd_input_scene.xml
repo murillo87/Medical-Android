@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:focusable="true"
+    android:focusableInTouchMode="true"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    tools:context=".scenes.visusnhd.VisusNhdInputSceneActivity">
+
+    <com.appamedix.makula.views.navigation.NavigationView
+        android:id="@+id/navigation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/visus_nhd_table"
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:background="@color/darkMain"
+        android:scrollbars="vertical" />
+
+    <Button
+        android:id="@+id/save_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="8dp"
+        android:paddingBottom="8dp"
+        android:background="@color/disabled"
+        android:enabled="false"
+        android:text="@string/datePickerSaveButton"
+        android:textColor="@color/action_done_button"
+        android:textAllCaps="false"
+        android:theme="@style/fontHeadLineDefault"
+        tools:textAppearance="@style/fontHeadLineDefault" />
+
+</LinearLayout>

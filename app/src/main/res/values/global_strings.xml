@@ -1,0 +1,85 @@
+<resources>
+
+    <!-- The error messages -->
+    <string name="databaseWriteErrorTitle">Datenbank-Fehler</string>
+    <string name="databaseWriteErrorMessage">Es ist ein Fehler beim Speichern in die Datenbank aufgetreten.</string>
+    <string name="databaseWriteErrorCancelButtom">OK</string>
+    <string name="defaultErrorConfirmButton">OK</string>
+
+    <string name="permissionNecessaryTitle">Zugriff benötigt</string>
+    <string name="externalStoragePermissionMessage">Zugriff auf externen Speicher benötigt.</string>
+    <string name="externalStorageNotAvailable">Externer Speicher nicht vorhaden. Backup kann nicht erstellt werden.</string>
+    <string name="phoneCallPermissionMessage">Zugriff auf die Telefonfunktion benötigt.</string>
+    <string name="phoneCallNotAvailable">Telefonfunktion nicht freigegeben.</string>
+    <string name="smsPermissionMessage">Zugriff auf die SMS-Funktion benötigt.</string>
+    <string name="smsNotAvailable">SMS-Funktion nicht freigegeben.</string>
+
+    <!-- The connection string added between two split cell entries -->
+    <string name="speechSplitConnector">, </string>
+
+    <!-- The default medicament titles -->
+    <string name="medicamentEntryAvastin">Avastin®</string>
+    <string name="medicamentEntryEylea">Eylea®</string>
+    <string name="medicamentEntryLucentis">Lucentis®</string>
+    <string name="medicamentEntryOzurdex">Ozurdex®</string>
+    <string name="medicamentEntryIluvien">Iluvien®</string>
+
+    <!-- The appointment titles -->
+    <string name="appointmentTreatment">Behandlung</string>
+    <string name="appointmentAftercare">Nachsorge</string>
+    <string name="appointmentOctCheck">OCT-Kontrolle</string>
+    <string name="appointmentOther">Sonstige</string>
+
+    <!-- The speech text for the appointment titles -->
+    <string name="appointmentTreatmentSpeech">Behandlung</string>
+    <string name="appointmentAftercareSpeech">Nachsorge</string>
+    <string name="appointmentOctCheckSpeech">O C T Kontrolle</string>
+    <string name="appointmentOtherSpeech">Sonstige</string>
+
+    <!-- The default contact titles -->
+    <string name="contactTreatment">Behandlung</string>
+    <string name="contactAftercare">Nachsorge</string>
+    <string name="contactOctCheck">OCT-Kontrolle</string>
+    <string name="contactAmdNetwork">AMD-Netz e.V.</string>
+
+    <!-- The default contact titles for the speech synthesizer -->
+    <string name="contactTreatmentSpeech">Behandlung</string>
+    <string name="contactAftercareSpeech">Nachsorge</string>
+    <string name="contactOctCheckSpeech">O C T Kontrolle</string>
+    <string name="contactAmdNetworkSpeech">A M D Netz e.V.</string>
+
+    <!-- The progress type titles -->
+    <string name="amslerTestProgressEqual">gleich</string>
+    <string name="amslerTestProgressBetter">besser</string>
+    <string name="amslerTestProgressWorse">schlechter</string>
+
+    <!-- The progress type titles for the speech synthesizer -->
+    <string name="amslerTestProgressEqualSpeech">gleich</string>
+    <string name="amslerTestProgressBetterSpeech">besser</string>
+    <string name="amslerTestProgressWorseSpeech">schlechter</string>
+
+    <!-- Visus / NHD type -->
+    <string name="visusOutput">%s dcml</string>
+    <string name="nhdOutput">%d µm</string>
+    <string name="visusOutputNoValue">-.— dcml</string>
+    <string name="nhdOutputNoValue">--- µm</string>
+
+    <!-- Date formatting -->
+    <string name="commonDateFormat">dd.MM.yy</string>
+    <string name="commonTimeFormat">HH:mm</string>
+    <string name="commonSpeechDateFormat">EEE, d MMMM yyyy</string>
+    <string name="commonDateWithWeekdayFormat">%s %s</string>
+
+    <string name="commonDateWeekdaySu">So</string>
+    <string name="commonDateWeekdayMo">Mo</string>
+    <string name="commonDateWeekdayTu">Di</string>
+    <string name="commonDateWeekdayWe">Mi</string>
+    <string name="commonDateWeekdayTh">Do</string>
+    <string name="commonDateWeekdayFr">Fr</string>
+    <string name="commonDateWeekdaySa">Sa</string>
+    
+    <!-- Reminder -->
+    <string name="localNotificationMessage">Termin um %s Uhr</string>
+    <string name="localNotificationChannel">Reminder for an appointment</string>
+
+</resources>

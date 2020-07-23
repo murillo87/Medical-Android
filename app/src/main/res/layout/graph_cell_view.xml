@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/graph_cell_content_view"
+    android:layout_width="match_parent"
+    android:layout_height="440dp"
+    app:cardCornerRadius="0dp"
+    android:layout_margin="0dp"
+    app:cardBackgroundColor="@color/darkMain">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/left_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/defaultMarginLeft"
+                android:layout_marginTop="@dimen/defaultMarginTop"
+                android:layout_marginBottom="@dimen/defaultTextGap"
+                android:layout_alignParentStart="true"
+                android:text="@string/graphTitleLeft"
+                android:textColor="@color/yellow"
+                android:theme="@style/fontContent1Default"
+                tools:textAppearance="@style/fontContent1Default" />
+
+            <TextView
+                android:id="@+id/right_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/defaultTextGap"
+                android:layout_marginTop="@dimen/defaultMarginTop"
+                android:layout_marginEnd="@dimen/defaultMarginRight"
+                android:layout_marginBottom="@dimen/defaultTextGap"
+                android:layout_alignParentEnd="true"
+                android:layout_toEndOf="@id/left_title"
+                android:text="@string/graphTitleRight"
+                android:textColor="@color/green"
+                android:gravity="end"
+                android:theme="@style/fontContent1Default"
+                tools:textAppearance="@style/fontContent1Default" />
+
+        </RelativeLayout>
+
+        <lecho.lib.hellocharts.view.LineChartView
+            android:id="@+id/chart"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/defaultMarginLeft"
+            android:layout_marginEnd="@dimen/defaultMarginRight"
+            android:layout_marginBottom="@dimen/defaultMarginBottom" />
+
+    </LinearLayout>
+
+</android.support.v7.widget.CardView>

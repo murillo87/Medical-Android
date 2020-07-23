@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- The scene's title -->
+    <string name="visusTitle">Visus-Eingabe</string>
+    <string name="nhdTitle">NHD-Eingabe</string>
+
+    <!-- The confirm button title -->
+    <string name="visusNhdConfirmButton">Speichern</string>
+
+    <!-- The cell titles -->
+    <string name="visusNhdCellLeft">links</string>
+    <string name="visusNhdCellRight">rechts</string>
+</resources>

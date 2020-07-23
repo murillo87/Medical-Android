@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:background="@color/lightMain"
+    tools:context=".scenes.info.InfoSceneActivity">
+
+    <com.appamedix.makula.views.navigation.NavigationView
+        android:id="@+id/navigation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <ScrollView
+        android:id="@+id/scrollView"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <TextView
+            android:id="@+id/instruction"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/defaultMarginLeft"
+            android:layout_marginEnd="@dimen/defaultMarginRight"
+            android:textColor="@color/darkMain"
+            android:textColorLink="@color/white"
+            android:singleLine="false"
+            android:autoLink="web"
+            android:theme="@style/fontContent1Default"
+            tools:textAppearance="@style/fontContent1Default"
+            tools:text="Instruction"/>
+
+    </ScrollView>
+
+    <Button
+        android:id="@+id/export_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="8dp"
+        android:paddingBottom="8dp"
+        android:background="@color/darkMain"
+        android:text="@string/backupButtonTitle"
+        android:textColor="@color/action_go_button"
+        android:textAllCaps="false"
+        android:theme="@style/fontHeadLineDefault"
+        tools:textAppearance="@style/fontHeadLineDefault" />
+
+</LinearLayout>

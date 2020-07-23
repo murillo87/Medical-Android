@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- The scene's title -->
+    <string name="reminderTitle">Erinnerung</string>
+
+    <!-- The cell title -->
+    <string name="reminderCheckboxCell">Vor Terminen erinnern</string>
+
+    <!-- Picker text -->
+    <string name="reminderPickerHour">%d h</string>
+    <string name="reminderPickerMinute">%d min</string>
+</resources>

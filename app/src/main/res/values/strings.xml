@@ -1,0 +1,26 @@
+<resources>
+    <string name="logo_image">Logo image</string>
+
+    <string name="nav_back_button">The navigation button back to previous screen</string>
+    <string name="nav_speak_button">The button to speak out the content</string>
+    <string name="nav_add_button">The button to add a new contact</string>
+    <string name="nav_info_button">The button to show the information</string>
+
+    <string name="drag_cell_button">The drag button to edit or delete a cell</string>
+
+    <string name="arrow_icon_description">The icon to inform about custom action</string>
+
+    <string name="split_radio_left">The left eye selected</string>
+    <string name="split_radio_right">The right eye selected</string>
+
+    <string name="amsler_test_grid">Grid image for the amsler test</string>
+
+    <string name="reading_test_left_radio">The left eye selected in the reading test cell</string>
+    <string name="reading_test_right_radio">The right eye selected in the reading test cell</string>
+
+    <string name="diagnosis_radio">The left radio icon in the diagnosis cell</string>
+    <string name="diagnosis_info">The button to show the information of the diagnosis</string>
+
+    <string name="medicament_radio">The radio icon in the medicament cell</string>
+    <string name="reminder_radio">The radio icon in the reminder checkbox cell</string>
+</resources>

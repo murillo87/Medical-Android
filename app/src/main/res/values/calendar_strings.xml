@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- The scene's title -->
+    <string name="calendarTitle">Kalender</string>
+
+    <!-- The week names for the WeekNamesView -->
+    <string name="weekNameMonday">MO</string>
+    <string name="weekNameTuesday">DI</string>
+    <string name="weekNameWednesday">MI</string>
+    <string name="weekNameThursday">DO</string>
+    <string name="weekNameFriday">FR</string>
+    <string name="weekNameSaturday">SA</string>
+    <string name="weekNameSunday">SO</string>
+
+    <!-- The month names -->
+    <string name="monthJanuary">Januar</string>
+    <string name="monthFebruary">Februar</string>
+    <string name="monthMarch">März</string>
+    <string name="monthApril">April</string>
+    <string name="monthMay">Mai</string>
+    <string name="monthJune">Juni</string>
+    <string name="monthJuly">Juli</string>
+    <string name="monthAugust">August</string>
+    <string name="monthSeptember">September</string>
+    <string name="monthOctober">Oktober</string>
+    <string name="monthNovember">November</string>
+    <string name="monthDecember">Dezember</string>
+
+    <!-- The format of the day numbers -->
+    <string name="dayNumberFormat">%02d</string>
+    <string name="monthTitleFormat">%s %s</string>
+</resources>

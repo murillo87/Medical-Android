@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/darkMain"
+    tools:context=".scenes.datepicker.AppointmentDatePickerSceneActivity">
+
+    <com.appamedix.makula.views.navigation.NavigationView
+        android:id="@+id/navigation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <ScrollView
+        android:id="@+id/scrollView"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <DatePicker
+                android:id="@+id/date_picker"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:datePickerMode="spinner"
+                android:calendarViewShown="false"
+                android:layout_marginStart="@dimen/defaultMarginLeft"
+                android:layout_marginEnd="@dimen/defaultMarginRight"
+                android:layout_marginTop="@dimen/defaultMarginLeft"
+                android:theme="@style/AppTheme.Picker"/>
+
+            <View
+                android:layout_width="match_parent"
+                android:background="@color/white"
+                android:layout_height="@dimen/defaultSeparatorHeight"
+                android:layout_marginStart="@dimen/defaultMarginLeft"
+                android:layout_marginEnd="@dimen/defaultMarginRight"
+                android:layout_marginTop="@dimen/defaultMarginTop" />
+
+            <TimePicker
+                android:id="@+id/time_picker"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:timePickerMode="spinner"
+                android:layout_marginStart="@dimen/defaultMarginLeft"
+                android:layout_marginEnd="@dimen/defaultMarginRight"
+                android:layout_marginTop="@dimen/defaultMarginTop"
+                android:layout_marginBottom="@dimen/defaultMarginLeft"
+                android:theme="@style/AppTheme.Picker"/>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+    <Button
+        android:id="@+id/save_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="8dp"
+        android:paddingBottom="8dp"
+        android:background="@color/lightMain"
+        android:text="@string/datePickerSaveButton"
+        android:textColor="@color/action_done_button"
+        android:textAllCaps="false"
+        android:theme="@style/fontHeadLineDefault"
+        tools:textAppearance="@style/fontHeadLineDefault" />
+
+</LinearLayout>

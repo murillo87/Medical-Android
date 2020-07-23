@@ -1,0 +1,125 @@
+apply plugin: 'com.android.application'
+
+apply plugin: 'kotlin-android'
+apply plugin: 'kotlin-android-extensions'
+apply plugin: 'kotlin-kapt'
+apply plugin: 'realm-android'
+
+android {
+    compileSdkVersion 28
+
+    def versionPropsFile = file('version.properties')
+    Properties versionProps = new Properties()
+
+    // Create default version file if it doesn't exists.
+    if (!versionPropsFile.exists()) {
+        versionProps['VERSION_MAJOR'] = "1"
+        versionProps['VERSION_MINOR'] = "0"
+        versionProps['VERSION_PATCH'] = "0"
+        versionProps['VERSION_BUILD'] = "0"
+        versionProps.store(versionPropsFile.newWriter(), null)
+    }
+
+    def mVersionName = ""
+    def mFileName = ""
+
+    // Read the version number from the props file.
+    if (versionPropsFile.canRead()) {
+        // Increment the build number.
+        versionProps.load(new FileInputStream(versionPropsFile))
+        versionProps['VERSION_BUILD'] = (versionProps['VERSION_BUILD'].toInteger() + 1).toString()
+        versionProps.store(versionPropsFile.newWriter(), null)
+
+        mVersionName = "${versionProps['VERSION_MAJOR']}.${versionProps['VERSION_MINOR']}.${versionProps['VERSION_PATCH']}"
+        mFileName = "MakulaApp-${mVersionName}-${versionProps['VERSION_BUILD']}.apk"
+
+        // Apply version to default config.
+        defaultConfig {
+            applicationId "com.appamedix.makula"
+            minSdkVersion 21
+            targetSdkVersion 28
+            versionCode versionProps['VERSION_BUILD'].toInteger()
+            versionName mVersionName
+            testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+        }
+    } else {
+        throw new FileNotFoundException("Couldn't read 'version.properties'!")
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+
+            applicationVariants.all { variant ->
+                variant.outputs.all {
+                    outputFileName = mFileName
+                }
+            }
+        }
+    }
+
+    // Add for using latest experimental build of Android Extensions
+    androidExtensions {
+        experimental = true
+    }
+
+    flavorDimensions "default"
+
+    productFlavors {
+
+        finalProduction {
+            dimension "default"
+            applicationId "com.appamedix.makula"
+            resValue "string", "app_name", "Makula"
+        }
+
+        devProduction {
+            dimension "default"
+            applicationId "com.appamedix.makula.devproduction"
+            resValue "string", "app_name", "Makula"
+        }
+
+        devTesting {
+            dimension "default"
+            applicationId "com.appamedix.makula.devtesting"
+            resValue "string", "app_name", "Makula Test"
+        }
+
+        mock {
+            dimension "default"
+            applicationId "com.appamedix.makula.mock"
+            resValue "string", "app_name", "Makula Mock"
+        }
+    }
+
+    realm {
+        syncEnabled = true
+    }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+}
+
+dependencies {
+    implementation fileTree(include: ['*.jar'], dir: 'libs')
+    implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk7:$kotlin_version"
+    implementation 'com.android.support:appcompat-v7:28.0.0'
+    implementation 'com.android.support:cardview-v7:28.0.0'
+    implementation 'com.android.support:recyclerview-v7:28.0.0'
+    implementation 'com.chauthai.overscroll:overscroll-bouncy:0.1.1'
+    implementation 'com.daimajia.swipelayout:library:1.2.0@aar'
+    kapt 'com.android.databinding:compiler:3.1.4'
+    implementation 'com.github.lecho:hellocharts-android:v1.5.8'
+    implementation 'android.arch.lifecycle:extensions:1.1.1'
+    implementation 'android.arch.lifecycle:viewmodel:1.1.1'
+    implementation 'android.arch.lifecycle:livedata:1.1.1'
+    annotationProcessor "android.arch.lifecycle:compiler:1.1.1"
+    implementation 'com.android.support:support-v4:28.0.0'
+    implementation 'com.android.support.constraint:constraint-layout:1.1.3'
+    testImplementation 'junit:junit:4.12'
+    androidTestImplementation 'com.android.support.test:runner:1.0.2'
+    androidTestImplementation 'com.android.support.test.espresso:espresso-core:3.0.2'
+}
+kapt { generateStubs = true }

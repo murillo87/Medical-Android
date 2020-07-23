@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- The scene's title -->
+    <string name="readingTestTitle">Lesetest</string>
+
+    <!-- The cell titles and contents -->
+    <string name="readingTestSplitCellLeft">links</string>
+    <string name="readingTestSplitCellRight">rechts</string>
+    <string name="readingTestContentCellBig">6. Sonntags anderen zu</string>
+    <string name="readingTestContentCellLarge">5. macht ich mich hübsch und ging</string>
+    <string name="readingTestContentCellMedium">4. den Frack voller Pflaumen. Hell schien</string>
+    <string name="readingTestContentCellSmall">3. vom Feld in die Wiesen dämelt ich glücklich dahin. Schmetterlinge flogen in Menge</string>
+    <string name="readingTestContentCellLittle">
+        2. Menge. Von Zeit zu Zeit erhascht ich einen, besah ihn und ließ ihn fliegen, denn von der gewöhnlichen Sorte hatt ich längst alle Kasten voll. Aber jetzt, in der ferne,
+    </string>
+    <string name="readingTestContentCellTiny">
+        1. lch los hinter ihm her über Hecken und Zäune, wohl zwei, drei Stunden lang in einer Tour, bis mir\'s schließlich zu dumm wurde. Unwillig warf ich mich ins Gras.
+Oben in der Luft schwebte ein Habicht. 
+    </string>
+</resources>

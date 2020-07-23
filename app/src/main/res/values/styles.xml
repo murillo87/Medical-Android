@@ -1,0 +1,107 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Base.Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+    <style name="AppTheme.NoActionBar" parent="Base.Theme.AppCompat.Light.DarkActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:windowFullscreen">true</item>
+    </style>
+
+    <!-- Custom fonts -->
+    <style name="fontTitleDefault">
+        <item name="android:fontFamily">@font/the_sans_b7_bold</item>
+        <item name="android:textSize">32sp</item>
+    </style>
+    <style name="fontTitleLarge">
+        <item name="android:fontFamily">@font/the_sans_b7_bold</item>
+        <item name="android:textSize">57sp</item>
+    </style>
+    <style name="fontHeadLineDefault">
+        <item name="android:fontFamily">@font/the_sans_b7_bold</item>
+        <item name="android:textSize">32sp</item>
+    </style>
+    <style name="fontHeadLineLarge">
+        <item name="android:fontFamily">@font/the_sans_b7_bold</item>
+        <item name="android:textSize">57sp</item>
+    </style>
+    <style name="fontContent1Default">
+        <item name="android:fontFamily">@font/the_sans_b7_bold</item>
+        <item name="android:textSize">26sp</item>
+    </style>
+    <style name="fontContent1Large">
+        <item name="android:fontFamily">@font/the_sans_b7_bold</item>
+        <item name="android:textSize">46sp</item>
+    </style>
+    <style name="fontContent2Default">
+        <item name="android:fontFamily">@font/the_sans_b7_bold</item>
+        <item name="android:textSize">24sp</item>
+    </style>
+    <style name="fontContent2Large">
+        <item name="android:fontFamily">@font/the_sans_b7_bold</item>
+        <item name="android:textSize">43sp</item>
+    </style>
+    <style name="fontNumbersDefault">
+        <item name="android:fontFamily">@font/the_sans_bold_expert</item>
+        <item name="android:textSize">30sp</item>
+    </style>
+    <style name="fontNumbersLarge">
+        <item name="android:fontFamily">@font/the_sans_bold_expert</item>
+        <item name="android:textSize">54sp</item>
+    </style>
+    <style name="fontReadingTestBig">
+        <item name="android:fontFamily">@font/the_sans_b7_bold</item>
+        <item name="android:textSize">42sp</item>
+    </style>
+    <style name="fontReadingTestLarge">
+        <item name="android:fontFamily">@font/the_sans_b7_bold</item>
+        <item name="android:textSize">32sp</item>
+    </style>
+    <style name="fontReadingTestMedium">
+        <item name="android:fontFamily">@font/the_sans_b7_bold</item>
+        <item name="android:textSize">24sp</item>
+    </style>
+    <style name="fontReadingTestSmall">
+        <item name="android:fontFamily">@font/the_sans_b7_bold</item>
+        <item name="android:textSize">18sp</item>
+    </style>
+    <style name="fontReadingTestLittle">
+        <item name="android:fontFamily">@font/the_sans_b7_bold</item>
+        <item name="android:textSize">15sp</item>
+    </style>
+    <style name="fontReadingTestTiny">
+        <item name="android:fontFamily">@font/the_sans_b7_bold</item>
+        <item name="android:textSize">12sp</item>
+    </style>
+    <style name="fontGraphNumbersDefault">
+        <item name="android:fontFamily">@font/the_sans_bold_expert</item>
+        <item name="android:textSize">24sp</item>
+    </style>
+    <style name="fontGraphNumbersLarge">
+        <item name="android:fontFamily">@font/the_sans_bold_expert</item>
+        <item name="android:textSize">30sp</item>
+    </style>
+    <style name="fontGraphTextDefault">
+        <item name="android:fontFamily">@font/the_sans_b7_bold</item>
+        <item name="android:textSize">24sp</item>
+    </style>
+    <style name="fontGraphTextLarge">
+        <item name="android:fontFamily">@font/the_sans_b7_bold</item>
+        <item name="android:textSize">30sp</item>
+    </style>
+
+    <!-- The custom style for pickers -->
+    <style name="AppTheme.Picker">
+        <item name="android:textColorPrimary">@color/white</item>
+        <item name="colorControlNormal">@color/white</item>
+        <item name="controlBackground">@color/transparent</item>
+        <item name="android:fontFamily">@font/the_sans_b7_bold</item>
+        <item name="android:textSize">28sp</item>
+    </style>
+
+</resources>

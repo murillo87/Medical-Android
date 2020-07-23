@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- The title for the home menu scene -->
+    <string name="homeMenuTitle">Makula-App</string>
+
+    <!-- The cell titles for the home menu -->
+    <string name="homeMenuCell0">Arztbesuch</string>
+    <string name="homeMenuCell1">Termine</string>
+    <string name="homeMenuCell2">Kalender</string>
+    <string name="homeMenuCell3">Kontakte</string>
+    <string name="homeMenuCell4">Selbsttests</string>
+    <string name="homeMenuCell5">Wissen</string>
+    <string name="homeMenuCell6">Adressverzeichnis</string>
+    <string name="homeMenuCell7">Aktuelles</string>
+    <string name="homeMenuCell8">Suchfunktion</string>
+    <string name="homeMenuCell9">Einstellungen</string>
+    <string name="homeMenuCell10">Impressum</string>
+    <string name="homeMenuCell11">Version %s (%d)</string>
+    <string name="homeMenuCell12">Bedienung</string>
+
+    <!-- The speech text for the home menu cells -->
+    <string name="homeMenuCell0Speech">Arztbesuch</string>
+    <string name="homeMenuCell1Speech">Termine</string>
+    <string name="homeMenuCell2Speech">Kalender</string>
+    <string name="homeMenuCell3Speech">Kontakte</string>
+    <string name="homeMenuCell4Speech">Selbsttests</string>
+    <string name="homeMenuCell5Speech">Wissen</string>
+    <string name="homeMenuCell6Speech">Adressverzeichnis</string>
+    <string name="homeMenuCell7Speech">Aktuelles</string>
+    <string name="homeMenuCell8Speech">Suchfunktion</string>
+    <string name="homeMenuCell9Speech">Einstellungen</string>
+    <string name="homeMenuCell10Speech">Impressum</string>
+    <string name="homeMenuCell11Speech">Version %s (%s)</string>
+    <string name="homeMenuCell12Speech">Bedienung</string>
+
+    <!-- The title for the doctor visit menu scene -->
+    <string name="doctorVisitMenuTitle">Arztbesuch</string>
+
+    <!-- The cell titles for the doctor visit menu -->
+    <string name="doctorVisitMenuCell0">Behandlung</string>
+    <string name="doctorVisitMenuCell1">Diagnose</string>
+    <string name="doctorVisitMenuCell2">Medikamente</string>
+    <string name="doctorVisitMenuCell3">Visus-Eingabe</string>
+    <string name="doctorVisitMenuCell4">NH-Dicke-Eingabe</string>
+    <string name="doctorVisitMenuCell5">Grafik NH-Dicke/Visus</string>
+
+    <!-- The speech text for the doctor visit menu cells -->
+    <string name="doctorVisitMenuCell0Speech">Behandlung</string>
+    <string name="doctorVisitMenuCell1Speech">Diagnose</string>
+    <string name="doctorVisitMenuCell2Speech">Medikamente</string>
+    <string name="doctorVisitMenuCell3Speech">Visus Eingabe</string>
+    <string name="doctorVisitMenuCell4Speech">N H Dicke Eingabe</string>
+    <string name="doctorVisitMenuCell5Speech">Grafik N H Dicke Visus</string>
+
+    <!-- The title for the self test menu scene -->
+    <string name="selfTestMenuTitle">Selbsttests</string>
+
+    <!-- The cell titles for the self test menu -->
+    <string name="selfTestMenuCell0">Amslertest</string>
+    <string name="selfTestMenuCell1">Lesetest</string>
+
+    <!-- The speech text for the self test menu cells -->
+    <string name="selfTestMenuCell0Speech">Amslertest</string>
+    <string name="selfTestMenuCell1Speech">Lesetest</string>
+
+    <!-- The title for the knowledge menu scene -->
+    <string name="knowledgeMenuTitle">Wissen</string>
+    
+    <!-- The cell titles for the knowledge menu -->
+    <string name="knowledgeMenuCell0">Erkrankung</string>
+    <string name="knowledgeMenuCell1">Untersuchung</string>
+    <string name="knowledgeMenuCell2">Therapie</string>
+    <string name="knowledgeMenuCell3">Maßnahmen</string>
+    <string name="knowledgeMenuCell4">Hilfsmittel</string>
+    <string name="knowledgeMenuCell5">Unterstützung</string>
+    <string name="knowledgeMenuCell6">Diagnose</string>
+
+    <!-- The speech text for the knowledge menu cells -->
+    <string name="knowledgeMenuCell0Speech">Erkrankung</string>
+    <string name="knowledgeMenuCell1Speech">Untersuchung</string>
+    <string name="knowledgeMenuCell2Speech">Therapie</string>
+    <string name="knowledgeMenuCell3Speech">Maßnahmen</string>
+    <string name="knowledgeMenuCell4Speech">Hilfsmittel</string>
+    <string name="knowledgeMenuCell5Speech">Unterstützung</string>
+    <string name="knowledgeMenuCell6Speech">Diagnose</string>
+
+    <!-- The title for the settings menu scene -->
+    <string name="settingsMenuTitle">Einstellungen</string>
+
+    <!-- The cell titles for the settings menu -->
+    <string name="settingsMenuCell0">Erinnerung</string>
+    <string name="settingsMenuCell1">Backup</string>
+
+    <!-- The speech text for the settings menu cells -->
+    <string name="settingsMenuCell0Speech">Erinnerung</string>
+    <string name="settingsMenuCell1Speech">Backup</string>
+
+    <!-- The title for the illness menu scene -->
+    <string name="illnessMenuTitle">Erkrankung</string>
+
+    <!-- The cell titles for the illness menu -->
+    <string name="illnessMenuCell0">AMD</string>
+    <string name="illnessMenuCell1">Drusen</string>
+    <string name="illnessMenuCell2">Feuchte AMD</string>
+    <string name="illnessMenuCell3">Formen AMD</string>
+    <string name="illnessMenuCell4">Behandlung</string>
+    <string name="illnessMenuCell5">Makula</string>
+    <string name="illnessMenuCell6">Makulaödem</string>
+    <string name="illnessMenuCell7">Metamorphopsie</string>
+    <string name="illnessMenuCell8">Netzhaut</string>
+    <string name="illnessMenuCell9">Trockene AMD</string>
+
+    <!-- The speech text for the illness menu cells -->
+    <string name="illnessMenuCell0Speech">A M D</string>
+    <string name="illnessMenuCell1Speech">Drusen</string>
+    <string name="illnessMenuCell2Speech">Feuchte A M D</string>
+    <string name="illnessMenuCell3Speech">Formen A M D</string>
+    <string name="illnessMenuCell4Speech">Behandlung</string>
+    <string name="illnessMenuCell5Speech">Makula</string>
+    <string name="illnessMenuCell6Speech">Makulaödem</string>
+    <string name="illnessMenuCell7Speech">Metamorphopsie</string>
+    <string name="illnessMenuCell8Speech">Netzhaut</string>
+    <string name="illnessMenuCell9Speech">Trockene A M D</string>
+
+    <!-- The title for the examination menu scene -->
+    <string name="examinationMenuTitle">Untersuchung</string>
+
+    <!-- The cell titles for the examination menu -->
+    <string name="examinationMenuCell0">Augenspiegelung</string>
+    <string name="examinationMenuCell1">Fluoreszenzangiographie</string>
+    <string name="examinationMenuCell2">Fundusfotografie</string>
+    <string name="examinationMenuCell3">Netzhautdicke</string>
+    <string name="examinationMenuCell4">OCT-Untersuchung</string>
+    <string name="examinationMenuCell5">OCT-A</string>
+    <string name="examinationMenuCell6">Visus</string>
+
+    <!-- The speech text for the examination menu cells -->
+    <string name="examinationMenuCell0Speech">Augenspiegelung</string>
+    <string name="examinationMenuCell1Speech">Fluoreszenzangiographie</string>
+    <string name="examinationMenuCell2Speech">Fundusfotografie</string>
+    <string name="examinationMenuCell3Speech">Netzhautdicke</string>
+    <string name="examinationMenuCell4Speech">O C T Untersuchung</string>
+    <string name="examinationMenuCell5Speech">O C T A</string>
+    <string name="examinationMenuCell6Speech">Visus</string>
+
+    <!-- The title for the therapy menu scene -->
+    <string name="therapyMenuTitle">Therapie</string>
+
+    <!-- The cell titles for the therapy menu -->
+    <string name="therapyMenuCell0">Alternative Therapien</string>
+    <string name="therapyMenuCell1">IVOM-Therapie</string>
+    <string name="therapyMenuCell2">PRN-Schema</string>
+    <string name="therapyMenuCell3">Trockene AMD</string>
+    <string name="therapyMenuCell4">Treat &#38; Extend</string>
+    <string name="therapyMenuCell5">VEGF-Hemmer</string>
+
+    <!-- The speech text for the therapy menu cells -->
+    <string name="therapyMenuCell0Speech">Alternative Therapien</string>
+    <string name="therapyMenuCell1Speech">I V O M Therapie</string>
+    <string name="therapyMenuCell2Speech">P R N Schema</string>
+    <string name="therapyMenuCell3Speech">Trockene A M D</string>
+    <string name="therapyMenuCell4Speech">Treat &#38; Extend</string>
+    <string name="therapyMenuCell5Speech">V E G F Hemmer</string>
+
+    <!-- The title for the activities menu scene -->
+    <string name="activitiesMenuTitle">Maßnahmen</string>
+
+    <!-- The cell titles for the activities menu -->
+    <string name="activitiesMenuCell0">Amsler-Test</string>
+    <string name="activitiesMenuCell1">Bewegung</string>
+    <string name="activitiesMenuCell2">Ernährung</string>
+    <string name="activitiesMenuCell3">Nahrungsergänzung</string>
+    <string name="activitiesMenuCell4">Rauchen</string>
+    <string name="activitiesMenuCell5">Reha-Maßnahmen</string>
+
+    <!-- The speech text for the activities menu cells -->
+    <string name="activitiesMenuCell0Speech">Amsler Test</string>
+    <string name="activitiesMenuCell1Speech">Bewegung</string>
+    <string name="activitiesMenuCell2Speech">Ernährung</string>
+    <string name="activitiesMenuCell3Speech">Nahrungsergänzung</string>
+    <string name="activitiesMenuCell4Speech">Rauchen</string>
+    <string name="activitiesMenuCell5Speech">Reha Maßnahmen</string>
+
+    <!-- The title for the aid menu scene -->
+    <string name="aidMenuTitle">Hilfsmittel</string>
+
+    <!-- The cell titles for the aid menu -->
+    <string name="aidMenuCell0">Bildschirmlesegerät</string>
+    <string name="aidMenuCell1">Hörbucherei</string>
+    <string name="aidMenuCell2">Kantenfiltergläser</string>
+    <string name="aidMenuCell3">Lupe</string>
+    <string name="aidMenuCell4">Lupenbrille</string>
+    <string name="aidMenuCell5">Smartphone</string>
+    <string name="aidMenuCell6">Tablet-PC</string>
+    <string name="aidMenuCell7">Alltagshilfen</string>
+
+    <!-- The speech text for the aid menu cells -->
+    <string name="aidMenuCell0Speech">Bildschirmlesegerät</string>
+    <string name="aidMenuCell1Speech">Hörbucherei</string>
+    <string name="aidMenuCell2Speech">Kantenfiltergläser</string>
+    <string name="aidMenuCell3Speech">Lupe</string>
+    <string name="aidMenuCell4Speech">Lupenbrille</string>
+    <string name="aidMenuCell5Speech">Smartphone</string>
+    <string name="aidMenuCell6Speech">Tablet P C</string>
+    <string name="aidMenuCell7Speech">Alltagshilfen</string>
+
+    <!-- The title for the support menu scene -->
+    <string name="supportMenuTitle">Unterstützung</string>
+
+    <!-- The cell titles for the support menu -->
+    <string name="supportMenuCell0">Blindengeld</string>
+    <string name="supportMenuCell1">Hotline-AMD</string>
+    <string name="supportMenuCell2">Krankenkasse</string>
+    <string name="supportMenuCell3">Schwerbehindertenausweis</string>
+    <string name="supportMenuCell4">Sehbehindertengeld</string>
+
+    <!-- The speech text for the support menu cells -->
+    <string name="supportMenuCell0Speech">Blindengeld</string>
+    <string name="supportMenuCell1Speech">Hotline A M D</string>
+    <string name="supportMenuCell2Speech">Krankenkasse</string>
+    <string name="supportMenuCell3Speech">Schwerbehindertenausweis</string>
+    <string name="supportMenuCell4Speech">Sehbehindertengeld</string>
+
+</resources>
